@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/attractionsFragment">
+
+    <fragment
+        android:id="@+id/attractionsFragment"
+        android:name="com.example.myapplication.ui.attractions.AttractionsFragment"
+        android:label="AttractionsFragment" >
+        <action
+            android:id="@+id/action_attractionsFragment_to_attractionDetailFragment"
+            app:destination="@id/attractionDetailFragment" ></action>
+    </fragment>
+    <fragment
+        android:id="@+id/attractionDetailFragment"
+        android:name="com.example.myapplication.ui.attractions.AttractionDetailFragment"
+        android:label="fragment_attraction_detail"
+        tools:layout="@layout/fragment_attraction_detail" >
+        <argument
+            android:name="detail"
+            app:argType="com.example.myapplication.attractions.AttractionDetail"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_attractionDetailFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webViewFragment"
+        android:name="com.example.myapplication.ui.attractions.webview.WebViewFragment"
+        android:label="WebViewFragment" >
+        <argument
+            android:name="linkUrl"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

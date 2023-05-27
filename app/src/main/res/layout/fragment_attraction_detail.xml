@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFAFA"
+    tools:context=".ui.attractions.AttractionDetailFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/gl_xpos1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_xpos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/gl_xpos1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text=""
+                tools:text="基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)基隆庙口位於基隆市区，交通地理位置方便距离火车站及客运站只需要十分钟步程，因为交通便利、美食及文化多元也被观光游客所喜爱，基隆庙口更被观光局评选为「最友善的夜市」及「最美味的夜市」。\r\n\r\n基隆庙口的历史可追朔到日治时代末期，夜市的兴起和百年庙宇「奠济宫」有关，当时香火鼎盛的奠济宫为庙口夜市早期经济发展的根基，络绎不绝的香客、渔民也为此地带来繁荣与兴盛，随之而来的美食商机也带动了整个商圈的发展，形成如今知名的百年夜市。\r\n\r\n倚靠着海洋的基隆市，也发展出自己当地的特色美食，天妇罗、三明治、鼎边锉、奶油螃蟹、生猛海鲜、红烧鳗鱼羹等，在庙口夜市都可以找得到，也因基隆港都的蓬勃多元的文化也飘洋而来汇聚於此，异国美食也等着旅客来深入发掘。\r\n\r\n庙口夜市所拥有的美食种类之多，从饱餐一顿的鼎边锉、三明治、鸡卷、豆签羹、卤肉饭、原汁猪脚、红烧鳗鱼羹，到吃巧尝鲜的天妇罗、香肠、泡泡冰等美食，种类繁多因此获得「全台之冠」的美誉，下一次来基隆旅游的时候不妨停下脚步，在夕阳西沉之际走入庙口夜市让感官享受一场味觉的向宴。\r\n\r\n(资料来源：基隆旅游网)" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_margin="16dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tv_link"
+                android:layout_margin="16dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

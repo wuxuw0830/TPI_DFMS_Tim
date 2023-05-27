@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ทัวร์ไทเป</string>
+    <string name="title_attractions">สถานที่ท่องเที่ยวทั้งหมด</string>
+    <string name="title_attraction_detail">แนะนำ</string>
+    <string name="title_webView"></string>
+</resources>

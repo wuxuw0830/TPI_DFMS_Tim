@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour de Taipéi</string>
+    <string name="title_attractions">Atracción Todo</string>
+    <string name="title_attraction_detail">Introducir</string>
+    <string name="title_webView"></string>
+</resources>

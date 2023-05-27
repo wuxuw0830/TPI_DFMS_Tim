@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">台北旅遊</string>
+    <string name="title_attractions">景點</string>
+    <string name="title_attraction_detail">介紹</string>
+    <string name="title_webView"></string>
+</resources>

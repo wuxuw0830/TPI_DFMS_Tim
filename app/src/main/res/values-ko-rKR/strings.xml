@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">타이페이 투어</string>
+    <string name="title_attractions">어트랙션 모두</string>
+    <string name="title_attraction_detail">소개하다</string>
+    <string name="title_webView"></string>
+</resources>

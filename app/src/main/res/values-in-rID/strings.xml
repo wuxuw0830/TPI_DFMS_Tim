@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tur Taipei</string>
+    <string name="title_attractions">Atraksi Semua</string>
+    <string name="title_attraction_detail"></string>
+    <string name="title_webView">Memperkenalkan</string>
+</resources>

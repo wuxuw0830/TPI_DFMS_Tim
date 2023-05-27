@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">du lịch Đài Bắc</string>
+    <string name="title_attractions">thu hút tất cả</string>
+    <string name="title_attraction_detail">giới thiệu</string>
+    <string name="title_webView"></string>
+</resources>

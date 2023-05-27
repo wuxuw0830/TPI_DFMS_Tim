@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  <string name="app_name">台北ツアー</string>
+    <string name="title_attractions">アトラクションすべて</string>
+    <string name="title_attraction_detail">Introduce</string>
+    <string name="title_webView">導入</string>
+</resources>
